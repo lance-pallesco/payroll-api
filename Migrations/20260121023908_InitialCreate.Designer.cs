@@ -12,7 +12,7 @@ using PayrollApi.Data;
 namespace PayrollApi.Migrations
 {
     [DbContext(typeof(PayrollDbContext))]
-    [Migration("20260120144627_InitialCreate")]
+    [Migration("20260121023908_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

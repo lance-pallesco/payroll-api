@@ -11,8 +11,6 @@ namespace PayrollApi.Models
         public string LastName { get; set; } = string.Empty;
         public DateTime DateOfBirth { get; set; }
         public decimal DailyRate { get; set; }
-
-        // Navigation property: which days of the week this employee normally works
         public ICollection<EmployeeWorkingDay> WorkingDays { get; set; } = new List<EmployeeWorkingDay>();
     }
 }
