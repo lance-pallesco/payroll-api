@@ -19,8 +19,8 @@ This is the **.NET 8 Web API backend** for the Payroll System project.
 
   1. Clone the repository:
   ```bash
-  git clone https://github.com/lance-pallesco/payroll-backend.git
-  cd payroll-backend
+  git clone https://github.com/lance-pallesco/payroll-api.git
+  cd payroll-api
   ```
 
   2. Restore dependencies:
